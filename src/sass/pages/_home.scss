@@ -2,15 +2,27 @@
 @use "../abstracts/variables" as var;
 @use "../base/typography" as type;
 
-body {
-  font-family: type.$font;
-  background-color: var.$bg-very-light;
-  width: min(100% - 2rem, 60ch);
-  margin-inline: auto;
-  margin-block: 4rem;
+/* Begin My CSS */
+
+html {
+  background-color: antiquewhite;
+  background-image: url(../images/annie-spratt-njUFzc17ki8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
 }
 
-h1 {
-  color: var.$primary-color;
-  text-align: center;
+body {
+  font-family: "Caveat", cursive;
+  max-width: 80ch;
+  margin: 0 auto;
+ 
+}
+
+p {
+    margin: 0;
+}
+
+section {
+    padding-top: 1rem;
 }

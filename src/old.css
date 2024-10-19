@@ -1,0 +1,24 @@
+/* Begin My CSS */
+
+html {
+  background-color: antiquewhite;
+  background-image: url(/annie-spratt-njUFzc17ki8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+body {
+  font-family: "Caveat", cursive;
+  max-width: 80ch;
+  margin: 0 auto;
+ 
+}
+
+p {
+    margin: 0;
+}
+
+section {
+    padding-top: 1rem;
+}
